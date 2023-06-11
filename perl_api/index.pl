@@ -76,13 +76,16 @@ use DBI;
 
         if ($auth == 1)
         {
+            print "Access-Control-Allow-Origin: *\n";
             print "Content-type: application/json; charset=iso-8859-1\n\n";
+            
 
             @api_result = ();
 
             if ($ENV{'REQUEST_METHOD'} == "POST")
             {
-                  
+                print "[";  
+                
                 while (my @array_result = $stmt->fetchrow_array())
                 {
                     $data = qq-
@@ -91,21 +94,24 @@ use DBI;
                         "name" : "$array_result[1]",
                         "email" : "$array_result[2]",
                         "message" : "$array_result[3]"
-                    }
-                    -;    
+                    }-;    
 
-                    push (@api_result, $data);
+                    print $data.",";
+                    
                 }
 
-                print @api_result;
+                print "]";
+                
 
-                return @api_result;
+                
             }          
         }
 
         else 
         {
+            print "Access-Control-Allow-Origin: *\n";
             print "Content-type: application/json; charset=iso-8859-1\n\n";
+            
 
             print '{"error":"no authentication"}';
 
