@@ -1,8 +1,14 @@
-Basic Api Implementation
+<h1>Basic Api Implementation</h1>
 
-Capable of displaying and returning data 
+FEATURED;
 
-In a single page backend
+  Capable of displaying and returning data 
 
+  In a single page backend
+
+
+EXPECTED;
+
+  Using database for authentication matches
 
 
