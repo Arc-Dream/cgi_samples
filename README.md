@@ -2,3 +2,5 @@
 
 cgi basic web pages 
 with different languages 
+
+server : apache 
