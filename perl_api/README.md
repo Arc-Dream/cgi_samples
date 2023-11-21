@@ -1,6 +1,6 @@
 <h1>Basic Api Implementation</h1>
 
-<span style="color:red;">FEATURED</span>;
+**FEATURED**;
 
   Capable of displaying and returning data 
 
@@ -13,10 +13,8 @@
   In order to view the results taken with index.pl file.
 
 
-DEPENDENCIES;
+**DEPENDENCIES**;
 
   A database connection with a table to be served, 
 
   MySQL used in this case,
-
-
