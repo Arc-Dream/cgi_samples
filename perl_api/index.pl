@@ -63,7 +63,7 @@ use DBI;
 
     ## EXECUTE AUTHETICATION
 
-        if ((@current_user[0] eq "aa") && (@current_user[1] eq "123"))
+        if ((@current_user[0] eq "aaa") && (@current_user[1] eq "123"))
         {
             $auth = 1;
         }
@@ -76,15 +76,18 @@ use DBI;
 
         if ($auth == 1)
         {
-            print "Access-Control-Allow-Origin: *\n";
+            ## COMMENTED LINES HANDLED THROUGH .HTACCESS FILE
+            # print "Access-Control-Allow-Origin: *\n";
+            # print "Access-Control-Allow-Credentials: true \n";
+            # print "Access-Control-Allow-Methods: GET,HEAD,OPTIONS,POST,PUT \n";
             print "Content-type: application/json; charset=iso-8859-1\n\n";
             
 
-            @api_result = ();
+            $api_result = "";
 
             if ($ENV{'REQUEST_METHOD'} == "POST")
             {
-                print "[";  
+                # print '{"data":[';  
                 
                 while (my @array_result = $stmt->fetchrow_array())
                 {
@@ -94,13 +97,20 @@ use DBI;
                         "name" : "$array_result[1]",
                         "email" : "$array_result[2]",
                         "message" : "$array_result[3]"
-                    }-;    
+                    }-; 
 
-                    print $data.",";
+                    $api_result = $api_result.",".$data;  
+
+                    
+
+                    
                     
                 }
+                $api_result = substr($api_result, 1);
 
-                print "]";
+                $result =  "{\"data\":[$api_result]}";
+                print $result;
+                # print ']}';
                 
 
                 
@@ -109,7 +119,7 @@ use DBI;
 
         else 
         {
-            print "Access-Control-Allow-Origin: *\n";
+            # print "Access-Control-Allow-Origin: *\n";
             print "Content-type: application/json; charset=iso-8859-1\n\n";
             
 
