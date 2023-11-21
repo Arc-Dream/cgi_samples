@@ -1,6 +1,6 @@
 <h1>Basic Api Implementation</h1>
 
-<span style="color:red">FEATURED</span>;
+<span style="color:red;">FEATURED</span>;
 
   Capable of displaying and returning data 
 
