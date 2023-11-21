@@ -7,8 +7,10 @@ FEATURED;
   In a single page backend
 
 
-EXPECTED;
+DEPENDENCIES;
 
-  Using database for authentication matches
+  A database connection with a table to be served, 
+
+  MySQL used in this case,
 
 
