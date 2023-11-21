@@ -2,19 +2,19 @@
 
 **FEATURED**;
 
-  Capable of displaying and returning data 
+  *Capable of displaying and returning data,* 
 
-  In a single page backend.
+  *In a single page backend.*
 
-  There is also a viewer html/JS file;
+  *There is also a viewer html/JS file;*
 
-  Index.html included,
+  *Index.html included,*
 
-  In order to view the results taken with index.pl file.
+  *In order to view the results taken with index.pl file.*
 
 
 **DEPENDENCIES**;
 
-  A database connection with a table to be served, 
+  *A database connection with a table to be served,* 
 
-  MySQL used in this case,
+  *MySQL used in this case.*
