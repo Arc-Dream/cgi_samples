@@ -4,7 +4,13 @@ FEATURED;
 
   Capable of displaying and returning data 
 
-  In a single page backend
+  In a single page backend.
+
+  There is also a viewer html/JS file;
+
+  Index.html included,
+
+  In order to view the results taken with index.pl file.
 
 
 DEPENDENCIES;
