@@ -6,7 +6,7 @@
 
 **JAVA**
 <br>
-*Passing data received with GET request*
+Passing data received with GET request
 
 **PERL**
 
