@@ -5,13 +5,13 @@
 **WITH MULTIPLE LANGUAGES**
 <br><br>
     
-    Passing data on page
-    Received with GET request
-    
-    JAVA
-    
-    PERL
-    
-    PYTHON
-    
-    RUBY
+Passing data on page
+Received with GET request
+
+JAVA
+
+PERL
+
+PYTHON
+
+RUBY
