@@ -4,7 +4,9 @@
 <br>
 **WITH MULTIPLE LANGUAGES**
 <br><br>
-Passing data received with GET request
+Passing data on page
+<br>
+Received with GET request
 <br><br>
 **JAVA**
 
