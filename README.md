@@ -1,4 +1,4 @@
-<h1>CGI SAMPLES<h2>
+<h1>CGI SAMPLES</h1>
 
 **EXAMPLES OF SIMPLE CGI**
 <br>
