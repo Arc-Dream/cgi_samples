@@ -5,6 +5,7 @@
 **WITH MULTIPLE LANGUAGES**
 
 **JAVA**
+*Passing data received with GET request*
 
 **PERL**
 
