@@ -7,9 +7,9 @@ use DBI;
 
     ## SET CONNECTION
 
-        my $dsn = "DBI:mysql:data_try";
-        my $db_username = "root";
-        my $db_password = "123";
+        my $dsn = "DBI:mysql:db_name";
+        my $db_username = "username";
+        my $db_password = "password";
 
         my %attr = ( PrintError=>0,  RaiseError=>1);
 
@@ -63,7 +63,7 @@ use DBI;
 
     ## EXECUTE AUTHETICATION
 
-        if ((@current_user[0] eq "aaa") && (@current_user[1] eq "123"))
+        if ((@current_user[0] eq "user_name") && (@current_user[1] eq "user_pass"))
         {
             $auth = 1;
         }
