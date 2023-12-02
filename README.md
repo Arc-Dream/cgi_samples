@@ -3,6 +3,7 @@
 **EXAMPLES OF SIMPLE CGI**
 <br>
 **WITH MULTIPLE LANGUAGES**
+<br>
 Passing data received with GET request
 <br>
 **JAVA**
