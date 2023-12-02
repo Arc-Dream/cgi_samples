@@ -3,9 +3,9 @@
 **EXAMPLES OF SIMPLE CGI**
 <br>
 **WITH MULTIPLE LANGUAGES**
-<br>
+<br><br>
 Passing data received with GET request
-<br>
+<br><br>
 **JAVA**
 
 **PERL**
