@@ -1,6 +1,12 @@
-# cgi_try_outs
+<h1>CGI SAMPLES<h2>
 
-cgi basic web pages 
-with different languages 
+**EXAMPLES OF SIMPLE CGI**
+**WITH MULTIPLE LANGUAGES**
 
-server : apache 
+**JAVA**
+
+**PERL**
+
+**PYTHON**
+
+**RUBY**
