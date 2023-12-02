@@ -6,13 +6,12 @@
 <br><br>
     
     Passing data on page
-    <br>
     Received with GET request
-    <br><br>
-    **JAVA**
     
-    **PERL**
+    JAVA
     
-    **PYTHON**
+    PERL
     
-    **RUBY**
+    PYTHON
+    
+    RUBY
