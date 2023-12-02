@@ -3,14 +3,11 @@
 **EXAMPLES OF SIMPLE CGI**
 <br>
 **WITH MULTIPLE LANGUAGES**
-
-**JAVA**
-<br>
 Passing data received with GET request
+<br>
+**JAVA**
 
 **PERL**
-<br>
-Passing data received with GET request
 
 **PYTHON**
 
